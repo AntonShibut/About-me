@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ddd;
+    color:#0f141e;
+    
+}
+
+.container {
+    margin: auto;
+    max-width: 750px;
+    padding-top: 30px;
+
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 15px;
+}
+
+.info {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.card {
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: rgb(139, 206, 200); 
+}
+
+a {
+    color:  black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+    color: rgb(226, 36, 52);
+    font-family: inherit;
+    border: outset;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.btn:active {
+    border: inset;
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+    
+}
+
+.list li {
+   margin-bottom: 15px;
+   border-bottom: 2px solid gray;
+   padding-bottom: 5px;
+}
+
+.time {
+    width: 40%;
+    margin: auto;
+}
+
+.table td, .curses td {
+    text-align: center;
+    padding-bottom: 5px;
+    border-right: none;
+}
+
+.table td:nth-child(1) {
+    text-align: left;
+}
+
+.table td:nth-child(2) {
+    color: #86898f
+}
+
+.time td{
+    border-bottom: 2px solid gray;
+}
+
+.time tr:nth-child(odd) {
+    background: rgb(223, 223, 175);
+}
+ .call {
+    text-align: center;
+ }
+
+ .curses {
+    width: 60%;
+    margin: auto;
+}
+
+.curses th {
+    border-bottom: 2px solid gray;
+}
+
+
+.curses tr:nth-child(even) {
+    background: rgb(223, 223, 175);
+}
